@@ -25,7 +25,7 @@ Folder architecture:
         > Files are located under ***X:\ews_dev_env***:
         > * **docker-toolbox-portable-win32-18.06.0-4-setup.exe**   (Used to install Docker, available from https://github.com/portapps/docker-toolbox-portable/releases)
         > * **GoogleChromePortable_68.0.3440.106_online.paf.exe**   (Used to install Google Chrome, available from https://sourceforge.mirrorservice.org/p/po/portableapps/Google%20Chrome%20Portable/?C=M;O=D)
-        > * **VSCode-win32-x64-1.27.0-insider.zip**   (Used to install Visual Studio Code, available from https://aka.ms/win32-x64-user-insider)
+        > * **VSCodeUserSetup-x64-1.26.1.exe**   (Used to install Visual Studio Code)
         > * **Miniconda2-4.5.4-Windows-x86_64.exe**   (Used to install Python, available from https://repo.continuum.io/miniconda/)        
         > * **postgresql-9.6.9-1-windows-binaries.zip**   (Used to install PostgreSQL, available from  https://get.enterprisedb.com/postgresql/postgresql-9.6.9-1-windows-binaries.zip)
         > * **postgis-bundle-pg96-2.4.4x32.zip**   (Used to install PostGIS, available from https://download.osgeo.org/postgis/windows/pg96/postgis-bundle-pg96-2.4.4x32.zip)
@@ -36,7 +36,7 @@ Folder architecture:
         > * **Docker/**   (Location of Docker installation)
         > * **GoogleChromePortable/**   (Location of Google Chrome installation)
         > * **miniconda2/**   (Location of Python installation)
-        > * **VSCode-insider/**   (Location of Visual Studio Code installation)
+        > * **VSCode/**   (Location of Visual Studio Code installation)
         > * **postgresql-9.6.9/**   (Location of PostgreSQL installation)
         > * **PgAdminPortable/**   (Location of administrator tool for PostgreSQL)
         > * **wget/**  
@@ -90,11 +90,11 @@ Installation steps:
     > * * Select: `Destination folder: C:\EWS\bin\Docker`
     > * Run `start_docker_env.cmd` to create the docker-machine
 3. **Visual Studio Code installation**
-    > * Unpack `VSCode-win32-x64-1.27.0-insider`.zip under `C:\EWS\bin\VSCode-insider`
+    > * Install `VSCodeUserSetup-x64-1.26.1.exe`
     > * * Select: `Installation type: Just me`
-    > * * Select: `Destination folder: C:\EWS\bin\miniconda2`
+    > * * Select: `Destination folder: C:\EWS\bin\VSCode`
     > * * Select nothing in `Advanced options`
-    > * Run `install_vscode_extensions.cmd` to download the necessary extensions
+    > * Run `scripts/install_vscode_extensions.cmd` to download the necessary extensions
 4. **PostgreSQL**
     > * Unpack `postgis-bundle-pg96-2.4.4x32.zip`.zip under `postgresql-9.6.9`
     > * Unpack `postgis-bundle-pg96-2.4.4x32.zip`.zip under `postgresql-9.6.9` (merge the folders)
@@ -119,4 +119,4 @@ Docker images build:
 Python build:
 ------------
 
-See [local_deployement.md](./local_deployement.md)
+See [local_deployement](./local_deployement.md)
