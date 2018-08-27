@@ -23,8 +23,8 @@ EWS local python installation
     conda create --name ewsbase_py27 python=2.7 --yes
 
     activate ewsbase_py36
-    conda install --yes --file %EWS_INST_DIR%/ews_environnement/local_deployement/env_ewsbase_py36.txt
-    pip --no-cache-dir install -r %EWS_INST_DIR%/ews_environnement/local_deployement/requirements_pip_py36.txt
+    conda install --yes --file %EWS_INST_DIR%/local_deployement/env_ewsbase_py36.txt
+    pip --no-cache-dir install -r %EWS_INST_DIR%/local_deployement/requirements_pip_py36.txt
     jupyter --config-dir
     jupyter notebook --config="%JUPYTER_CONFIG_DIR%\jupyter_notebook_config.py" --generate-config
     jupyter nbextension enable --py widgetsnbextension --user
@@ -60,8 +60,8 @@ EWS local python installation
 
 
     activate ewsbase_py27
-    conda install --yes --file %EWS_INST_DIR%/ews_environnement/local_deployement/env_ewsbase_py27.txt
-    pip --no-cache-dir install -r %EWS_INST_DIR%/ews_environnement/local_deployement/requirements_pip_py27.txt    
+    conda install --yes --file %EWS_INST_DIR%/local_deployement/env_ewsbase_py27.txt
+    pip --no-cache-dir install -r %EWS_INST_DIR%/local_deployement/requirements_pip_py27.txt    
     jupyter lab path
     jupyter labextension install @jupyter-widgets/jupyterlab-manager --no-build
     jupyter labextension install jupyter-leaflet --no-build
@@ -72,8 +72,8 @@ EWS local python installation
     conda clean -tipsy && npm cache clean --force
     deactivate
 
-    activate  ewsbase_py27 && conda list --export --explicit > %EWS_INST_DIR%/ews_environnement/local_deployement/%USERNAME%_env_ewsbase_py27.txt && deactivate
-    activate  ewsbase_py36 && conda list --export --explicit > %EWS_INST_DIR%/ews_environnement/local_deployement/%USERNAME%_env_ewsbase_py36.txt && deactivate
+    activate  ewsbase_py27 && conda list --export --explicit > %EWS_INST_DIR%/local_deployement/%USERNAME%_env_ewsbase_py27.txt && deactivate
+    activate  ewsbase_py36 && conda list --export --explicit > %EWS_INST_DIR%/local_deployement/%USERNAME%_env_ewsbase_py36.txt && deactivate
 
     ```
 3. To facilitate the work with Jupyter, add the following lines:

@@ -111,7 +111,7 @@ Docker images build:
 2. Type `bash`
 3. Type `echo $MACHINE_NAME is $(docker-machine status $MACHINE_NAME)`. You should see: 
     > `ewsdocker is Running`
-4. Go in: `cd $EWS_INST_DIR/ews_environnement/docker_images/`
+4. Go in: `cd $EWS_INST_DIR/docker_images/`
 5. You can build all images by running: `./build_all.sh`
 
 
