@@ -5,7 +5,8 @@
 	"settings": {
 		"files.eol": "\n",
 		"files.exclude": {
-			"*.bz2": true
+			"**/*.bz2": true,
+			"**/*.pyc": true
 		}
 	}
 }
