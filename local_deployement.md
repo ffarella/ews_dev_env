@@ -53,7 +53,9 @@ EWS local python installation
     jupyter labextension install @pyviz/jupyterlab_pyviz --no-build
     jupyter labextension install @jupyterlab/toc --no-build
     jupyter lab build
+    jupyter labextension list
     conda clean -tipsy && npm cache clean --force
+    
     deactivate
 
 
@@ -66,6 +68,7 @@ EWS local python installation
     jupyter labextension install @pyviz/jupyterlab_pyviz --no-build
     jupyter labextension install @jupyterlab/toc --no-build
     jupyter lab build
+    jupyter labextension list
     conda clean -tipsy && npm cache clean --force
     deactivate
 
