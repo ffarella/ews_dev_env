@@ -22,6 +22,7 @@ Folder architecture:
         > *This will contain all the necessary installation files to setup an new environnement.*
         >
         > At the moment (2018-08-24):
+        > Files are located under ***X:\ews_dev_env***:
         > * **docker-toolbox-portable-win32-18.06.0-4-setup.exe**   (Used to install Docker, available from https://github.com/portapps/docker-toolbox-portable/releases)
         > * **GoogleChromePortable_68.0.3440.106_online.paf.exe**   (Used to install Google Chrome, available from https://sourceforge.mirrorservice.org/p/po/portableapps/Google%20Chrome%20Portable/?C=M;O=D)
         > * **VSCode-win32-x64-1.27.0-insider.zip**   (Used to install Visual Studio Code, available from https://aka.ms/win32-x64-user-insider)
