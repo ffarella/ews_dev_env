@@ -1,12 +1,10 @@
 *.ipynb
 *.pyc
 
-*.exe
 *.7z
 *.zip
 *.tar.bz2
 
-bin/
 configuration/code/
 configuration/code_extensions/
 configuration/jupyter/

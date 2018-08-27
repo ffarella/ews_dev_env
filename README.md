@@ -38,6 +38,7 @@ Folder architecture:
         > * **VSCode-insider/**   (Location of Visual Studio Code installation)
         > * **postgresql-9.6.9/**   (Location of PostgreSQL installation)
         > * **PgAdminPortable/**   (Location of administrator tool for PostgreSQL)
+        > * **wget/**  
     * **scripts/** (env.var. `EWS_SCRIPTS_DIR`)
         > *This will contain all the scripts necessary to launch the relevant assets.*
         >
@@ -113,3 +114,8 @@ Docker images build:
 5. You can build all images by running: `./build_all.sh`
 
 
+
+Python build:
+------------
+
+See [local_deployement.md](./local_deployement.md)
