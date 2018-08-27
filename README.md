@@ -88,7 +88,7 @@ Installation steps:
 2. **Docker installation**
     > * Run docker-toolbox-portable-win32-18.06.0-4-setup.exe
     > * * Select: `Destination folder: C:\EWS\bin\Docker`
-    > * Run `create_docker_machine.cmd` to create the docker-machine
+    > * Run `start_docker_env.cmd` to create the docker-machine
 3. **Visual Studio Code installation**
     > * Unpack `VSCode-win32-x64-1.27.0-insider`.zip under `C:\EWS\bin\VSCode-insider`
     > * * Select: `Installation type: Just me`
