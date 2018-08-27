@@ -4,6 +4,7 @@
 *.exe
 *.7z
 *.zip
+*.tar.bz2
 
 bin/
 configuration/code/

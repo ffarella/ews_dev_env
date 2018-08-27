@@ -26,8 +26,8 @@ Folder architecture:
         > * **GoogleChromePortable_68.0.3440.106_online.paf.exe**   (Used to install Google Chrome, available from https://sourceforge.mirrorservice.org/p/po/portableapps/Google%20Chrome%20Portable/?C=M;O=D)
         > * **VSCode-win32-x64-1.27.0-insider.zip**   (Used to install Visual Studio Code, available from https://aka.ms/win32-x64-user-insider)
         > * **Miniconda2-4.5.4-Windows-x86_64.exe**   (Used to install Python, available from https://repo.continuum.io/miniconda/)        
-        > * **postgresql-9.6.9-1-windows-binaries.zip**   (Used to install PostgreSQL)
-        > * **postgis-bundle-pg96-2.4.4x32.zip**   (Used to install PostGIS)
+        > * **postgresql-9.6.9-1-windows-binaries.zip**   (Used to install PostgreSQL, available from  https://get.enterprisedb.com/postgresql/postgresql-9.6.9-1-windows-binaries.zip)
+        > * **postgis-bundle-pg96-2.4.4x32.zip**   (Used to install PostGIS, available from https://download.osgeo.org/postgis/windows/pg96/postgis-bundle-pg96-2.4.4x32.zip)
     * **bin/** (env.var. `EWS_BIN_DIR`)
         > *This will contain all the program executables.*
         >

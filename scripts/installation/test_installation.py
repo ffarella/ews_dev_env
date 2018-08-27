@@ -71,3 +71,6 @@ def test():
     p = a.property
     p.representation = 'w'
     print("    OK")
+
+if __name__ == "__main__":
+    test()
