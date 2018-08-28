@@ -48,10 +48,13 @@ EWS local python installation
     jupyter nbextension enable varInspector/main --user
     jupyter nbextension enable move_selected_cells/main --user
     jupyter lab path
+    set NODE_OPTIONS=--max-old-space-size=4096
     jupyter labextension install @jupyter-widgets/jupyterlab-manager --no-build
     jupyter labextension install jupyter-leaflet --no-build
     jupyter labextension install @pyviz/jupyterlab_pyviz --no-build
     jupyter labextension install @jupyterlab/toc --no-build
+    jupyter labextension install plotlywidget  --no-build
+    jupyter labextension install @jupyterlab/plotly-extension --no-build
     jupyter lab build
     jupyter labextension list
     conda clean -tipsy && npm cache clean --force
@@ -61,12 +64,15 @@ EWS local python installation
 
     activate ewsbase_py27
     conda install --yes --file %EWS_INST_DIR%/local_deployement/env_ewsbase_py27.txt
-    pip --no-cache-dir install -r %EWS_INST_DIR%/local_deployement/requirements_pip_py27.txt    
+    pip --no-cache-dir install -r %EWS_INST_DIR%/local_deployement/requirements_pip_py27.txt
     jupyter lab path
+    set NODE_OPTIONS=--max-old-space-size=4096
     jupyter labextension install @jupyter-widgets/jupyterlab-manager --no-build
     jupyter labextension install jupyter-leaflet --no-build
     jupyter labextension install @pyviz/jupyterlab_pyviz --no-build
     jupyter labextension install @jupyterlab/toc --no-build
+    jupyter labextension install plotlywidget  --no-build
+    jupyter labextension install @jupyterlab/plotly-extension --no-build
     jupyter lab build
     jupyter labextension list
     conda clean -tipsy && npm cache clean --force

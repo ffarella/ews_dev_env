@@ -33,6 +33,7 @@ branca
 # ggplot
 bqplot
 vincent
+vega
 
 # holoviews stack
 #pyviz::pyviz 

@@ -21,6 +21,7 @@ scikit-image
 cython
 numba
 
+
 # Plotting stack
 matplotlib>=2.2.3
 altair
@@ -34,6 +35,7 @@ branca
 ggplot
 bqplot
 vincent
+vega
 
 # holoviews stack
 #pyviz::pyviz 
