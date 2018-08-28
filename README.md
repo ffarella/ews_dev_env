@@ -44,15 +44,21 @@ Folder architecture:
         > *This will contain all the scripts necessary to launch the relevant assets.*
         >
         > At the moment (2018-08-24):
-        > * **start_code_insiders.cmd**   (Used to start Visual Studio Code)
+        > * **start_chome.cmd**   (start Google Chrome)
+        > * **start_code_py27.cmd**   (start Visual Studio Code using Python 2.7 environnement)
+        > * **start_code_py36.cmd**   (start Visual Studio Code using Python 3.6 environnement)
         > * **start_conda_env.cmd**   (set env. var. for Python/Conda)     
-        > * **start_conda_env_py27.cmd**   (set env. var. for Python 2.7.15)    
+        > * **start_conda_env_py27.cmd**   (set env. var. for Python 2.7)    
         > * **start_conda_env_py36.cmd**   (set env. var. for Python 3.6)      
         > * **start_docker_bash_shell.cmd**   (start Docker aware bash shell)
         > * **start_docker_powershell.cmd**   (start Docker aware powershell)
         > * **start_docker_shell.cmd**   (start Docker aware windows shell)
         > * **start_docker_env.cmd**  (set env. var. for Docker and start the machine)
         > * **start_ews_env.cmd**   (set env. var. for the EWS developement **BASE SCRIPT**)
+        > * **start_jupyter_py27_F**   (start Jupyter notebook using Python 2.7 environnement on F: ) 
+        > * **start_jupyter_py27_F**   (start Jupyter notebook using Python 3.6 environnement on F: ) 
+        > * **start_jupyterlab_py27_F.cmd**   (start Jupyter lab using Python 2.7 environnement on F: ) 
+        > * **start_jupyterlab_py27_F.cmd**   (start Jupyter lab using Python 3.6 environnement on F: ) 
         > * **start_postgresql_env.cmd**   (set env. var. for PostgreSQL)
     * **configuration/** (env.var. `EWS_CONFIG_DIR`)
         >
@@ -66,16 +72,21 @@ Folder architecture:
     * **shortcuts/** (env.var. `EWS_SHORTCUTS_DIR`))
         >
         > At the moment (2018-08-24):
-        > * **Code - Insiders**   (Launcher for Visual Studio Code)  
+        > * **Code (python2.7)**   (Launcher for Visual Studio Code using Python 2.7 environnement)  
+        > * **Code (python3.6)**   (Launcher for Visual Studio Code using Python 3.6 environnement)  
         > * **Docker_bash_shell**   (Launcher for Docker aware console)  
         > * **Docker_powershell**   (Launcher for Docker aware console) 
+        > * **jupyter_py27_F**   (Launcher for Jupyter notebook using Python 2.7 environnement on F: ) 
+        > * **jupyter_py36_F**   (Launcher for Jupyter notebook using Python 3.6 environnement on F: ) 
+        > * **jupyterlab_py27_F**   (Launcher for Jupyter lab using Python 2.7 environnement on F: ) 
+        > * **jupyterlab_py36_F**   (Launcher for Jupyter lab using Python 3.6 environnement on F: ) 
         > * **Docker_shell**   (Launcher for Docker aware console) 
         > * **Google Chome**   (Launcher for Google Chome) 
         > * **pgAdmin**   (Launcher for PostgreSQL Admin GUI) 
         > * **psql**   (Launcher for PostgreSQL console) 
         > * **python_conda**   (Launcher for Conda aware console) 
-        > * **python27**   (Launcher for python27 aware console) 
-        > * **python36**   (Launcher for python36 aware console) 
+        > * **python27**   (Launcher for Python 2.7 environnement aware console) 
+        > * **python36**   (Launcher for Python 3.6 environnement aware console) 
 
 
 Installation steps:
