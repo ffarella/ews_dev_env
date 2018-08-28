@@ -7,6 +7,9 @@ set EWS_SCRIPTS_DIR=%EWS_BASE_DIR%\scripts
 set EWS_SHORTCUTS_DIR=%EWS_BASE_DIR%\schortcuts
 set EWS_TEST_DATA_DIR=%EWS_BASE_DIR%\test_data
 
+REM Add wget to the path
+set PATH=%EWS_BIN_DIR%\wget;%PATH%
+
 REM Add Git to the path
 set PATH=%EWS_BIN_DIR%\Docker\app\git\bin;%PATH%
 
