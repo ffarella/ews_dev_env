@@ -16,7 +16,7 @@ EWS local python installation
     conda config --system --prepend channels pyviz
     conda config --system --prepend channels msys2
     conda config --system --set auto_update_conda false
-    conda config --system --set show_channel_urls true    
+    conda config --system --set show_channel_urls true
     conda update -n base conda --yes
 
     conda create --name ewsbase_py36 python=3.6 --yes
@@ -58,7 +58,7 @@ EWS local python installation
     jupyter lab build
     jupyter labextension list
     conda clean -tipsy && npm cache clean --force
-    
+
     deactivate
 
 
@@ -83,7 +83,7 @@ EWS local python installation
 
     ```
 3. To facilitate the work with Jupyter, add the following lines:
-    ```    
+    ```
     c.NotebookApp.iopub_data_rate_limit = 1e8
     c.NotebookApp.token = ''
     c.NotebookApp.browser = "C:/EWS/bin/GoogleChromePortable/GoogleChromePortable.exe  %s"
